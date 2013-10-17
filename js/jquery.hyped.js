@@ -1,3 +1,14 @@
+/*!
+
+Name: Hyped
+Dependencies: jQuery
+Author: Charlie Hield
+Author URL: http://charliehield.com
+Github URL: https://github.com/stursby/Hyped
+Licensed under the MIT license
+
+*/
+
 ;(function($) {
 
   $.fn.hyped = function (options) {
