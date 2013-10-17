@@ -1,0 +1,188 @@
+/* Hyped - Demo Styles */
+
+*, *:before, *:after {
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box;
+}
+
+::-moz-selection {
+    color: #fff;
+    background: #83c441;
+}
+
+::selection {
+    color: #fff;
+    background: #83c441;
+}
+
+html {
+    text-rendering: optimizeLegibility;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    padding: 0 30px;
+}
+
+h1 {
+    color: #222;
+    font-size: 45px;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 30px;
+    position: relative;
+}
+
+h1 span {
+    padding: 0 12px;
+    background: #fff;
+    position: relative;
+}
+
+h1::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 54px;
+    width: 100%;
+    border-bottom: 1px solid #222;
+}
+
+.wrapper {
+    max-width: 400px;
+    margin: 50px auto;
+}
+
+.hyped {
+    margin-bottom: 50px;
+}
+
+.hyped li {
+    list-style: none;
+    position: relative;
+    padding: 3%;
+    border-bottom: 1px solid #e2e2e2;
+    border-left: 1px solid #e2e2e2;
+    border-right: 1px solid #e2e2e2;
+}
+.hyped li:nth-child(even) {
+    background-color: #ededed;
+}
+
+.hyped li:first-child {
+    border-top: 1px solid #e2e2e2;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+.hyped li:last-child {
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+.hyped li img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.album,
+.details {
+    display: inline-block;
+}
+
+.album {
+    width: 21%;
+    margin-right: 3%;
+}
+
+.details {
+    top: 0;
+    left: 0;
+    position: relative;
+    width: 76%;
+}
+
+.artist,
+.title {
+    padding: 1% 0;
+    position: relative;
+    display: block;
+}
+
+.title {
+    font-size: 14px;
+    top: 4%;
+}
+
+.artist {
+    font-weight: 600;
+    top: -1px;
+}
+
+.hyped li a,
+.hyped li a:visited {
+    text-decoration: none;
+    color: #222;   
+}
+
+.hyped li a:hover {
+    color: #83c441;
+}
+
+.hyped span.love-count {
+    position: absolute;
+    right: 3%;
+    font-weight: 600;
+    font-size: 14px;
+    color: #ed2024;
+}
+
+/* http://codepen.io/larrygeams/pen/nhgze */
+#loading { 
+    cursor: wait;
+    background-color: rgba(0,0,0,0);
+    opacity: .8;
+    border-radius: 50px;
+    margin: 5% auto;
+    animation: loading .5s infinite linear;
+    -moz-animation: loading .5s infinite linear;
+    -webkit-animation: loading .5s infinite linear;
+    border: 1px solid #222;
+    border-top: 1px solid rgba(0,0,0,0);
+    border-left: 1px solid rgba(0,0,0,0);
+    width: 30px;
+    height: 30px;
+}
+
+@keyframes loading {
+    0% {
+        -moz-transform: rotate(0deg);
+    }
+
+    100% {
+        -moz-transform: rotate(360deg);
+    };
+}
+
+@-moz-keyframes loading {
+    0% {
+        -moz-transform: rotate(0deg);
+    }
+
+    100% {
+        -moz-transform: rotate(360deg);
+    };
+}
+
+@-webkit-keyframes loading {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+    };
+}

@@ -1,0 +1,22 @@
+{
+  "name": "hyped",
+  "version": "1.0.0",
+  "authors": [
+    "Charlie Hield <hello@charliehield.com>"
+  ],
+  "description": "Easily display your most recent loved songs from The Hype Machine.",
+  "main": "js/jquery.hyped.js",
+  "keywords": [
+    "Hype",
+    "Machine",
+    "Hypem",
+    "Music",
+    "Songs",
+    "Tracks"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/stursby/Hyped",
+  "dependencies": {
+    "jquery": "~2.0.3"
+  }
+}
