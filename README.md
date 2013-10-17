@@ -14,7 +14,7 @@ Easily display your most recent loved songs from The Hype Machine - [hypem.com](
 
 #### Manually
 
-Make sure to inclue both `jQuery` and `jquery.hyped.js`
+Make sure to include both `jQuery` and `jquery.hyped.js`.
 
     <script src="path.to.jQuery"></script>
     <script src="path.to.jquery.hyped.js"></script>
