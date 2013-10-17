@@ -2,7 +2,7 @@
 
 Easily display your most recent loved songs from The Hype Machine - [hypem.com](http://hypem.com). 
 
-##### Click [here](demo.html) to see a demo.
+##### Click [here](http://sandbox.charliehield.com/hyped/) to see a demo.
 
 ![Screenshot](images/screenshot.png)
 
