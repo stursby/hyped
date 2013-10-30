@@ -1,5 +1,7 @@
 # Hyped
 
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/stursby/hyped/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
 Easily display your most recent loved songs from The Hype Machine - [hypem.com](http://hypem.com). 
 
 ##### Click [here](http://sandbox.charliehield.com/hyped/) to see a demo.
