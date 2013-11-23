@@ -32,12 +32,12 @@ Licensed under the MIT license
         return false;
       }
 
-      var username = options.username;
+      var username = settings.username;
       var url = "http://hypem.com/playlist/loved/" + username + "/json/1/data.js";
 
       $.getJSON(url, function (data) {
 
-        var limit = options.count || defaults.count;
+        var limit = settings.count;
         var list = $('<ul class="hyped"></ul>').replaceAll(el);
 
         for (var i = 0; i < limit; i++) {
@@ -51,7 +51,7 @@ Licensed under the MIT license
 
         };
 
-        if (options.linked === true) {
+        if (settings.linked === true) {
 
           list.children('li').each(function (index) {
 
@@ -61,7 +61,7 @@ Licensed under the MIT license
 
         }
 
-        if (options.loveCount === true) {
+        if (settings.loveCount === true) {
 
           list.children('li').each(function (index) {
 
@@ -71,13 +71,13 @@ Licensed under the MIT license
 
         }
 
-        if (options.artwork === false) { 
+        if (settings.artwork === false) { 
 
           return; 
 
         } else {
 
-          var size = options.thumbSize || defaults.thumbSize;
+          var size = settings.thumbSize;
           var sizeStr;
 
           switch(size) {
