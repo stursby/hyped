@@ -1,0 +1,24 @@
+{
+        "name": "hyped",
+        "version": "0.1.0",
+        "title": "hyped.js",
+        "author": {
+                "name": "Charlie Hield",
+                "url": "http://charliehield.com/"
+        },
+        "licenses": [
+                {
+                        "type": "MIT",
+                        "url": "http://choosealicense.com/licenses/mit/"
+                }
+        ],
+        "dependencies": {
+                "jquery": ">=1.71"
+        },
+        "description": "Display your latest loved songs from The Hype Machine (hypem.com).",
+        "keywords": [
+                "music",
+                "hype machine",
+                "social"
+        ]
+}
