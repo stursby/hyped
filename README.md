@@ -20,7 +20,7 @@ $ bower install hyped
 
 Make sure to include both `jQuery` and `jquery.hyped.js`.
 
-```javascript
+```html
 <script src="path.to.jQuery"></script>
 <script src="path.to.jquery.hyped.js"></script>
 ```
