@@ -12,14 +12,18 @@ Easily display your most recent loved songs from The Hype Machine - [hypem.com](
 
 #### via [Bower](http://bower.io)
 
-    $ bower install hyped
+```bash
+$ bower install hyped
+```
 
 #### Manually
 
 Make sure to include both `jQuery` and `jquery.hyped.js`.
 
-    <script src="path.to.jQuery"></script>
-    <script src="path.to.jquery.hyped.js"></script>
+```javascript
+<script src="path.to.jQuery"></script>
+<script src="path.to.jquery.hyped.js"></script>
+```
 
 ## Options
 
@@ -38,20 +42,23 @@ Make sure to include both `jQuery` and `jquery.hyped.js`.
 
 HTML
 
-    <div class="hyped">
-    	// Optional loading message / spinner
-    	<div class="loading"></div>
-    </div>
+```html
+<div class="hyped">
+	// Optional loading message / spinner
+	<div class="loading"></div>
+</div>
+```
 
 JavaScript
 
-    $(".hyped").hyped({
-        username : "stursby",
-        linked : true,
-        count : 5,
-        loveCount : true
-    });
-   
+```javascript
+$(".hyped").hyped({
+	username : "stursby",
+	linked : true,
+  	count : 5,
+  	loveCount : true
+});
+```
 
 ## License
 
