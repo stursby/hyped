@@ -55,7 +55,7 @@ Licensed under the MIT license
 
           list.children('li').each(function (index) {
 
-            $(this).find('.details').wrapInner('<a href="http://hypem.com/track/' + data[index].mediaid + '" target="_blank"></a>');
+            $(this).find('.details').wrapInner('<a href="http://hypem.com/track/' + data[index].itemid + '" target="_blank"></a>');
 
           });
 
