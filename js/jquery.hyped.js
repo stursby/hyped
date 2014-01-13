@@ -33,7 +33,7 @@ Licensed under the MIT license
       }
 
       var username = settings.username;
-      var url = "http://hypem.com/playlist/loved/" + username + "/json/1/data.js";
+      var url = "https://api.hypem.com/v2/users/" + username + "/favorites";
 
       $.getJSON(url, function (data) {
 
